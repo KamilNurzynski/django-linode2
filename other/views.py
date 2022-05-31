@@ -21,3 +21,4 @@ class HomeView(TemplateView):
 class ContactFormView(FormView):
     form_class = ContactForm
     template_name = 'other/contact.html'
+    success_url = "/other/thank_you/"
