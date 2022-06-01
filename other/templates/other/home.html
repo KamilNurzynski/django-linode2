@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,11 +22,17 @@
         <li><a href="{% url 'other:contact' %}">Do you want to contact us?</a></li>
     </ul>
 
-    <button class="btn btn-outline-success">
-        <i class="fa fa-print" aria-hidden="true"></i>
-        Print
-    </button>
 
+    <style>
+        body {
+            background-image: url("/static/other/5961485.jpg");
+            background-color: #cccccc;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
 </body>
 
 </html>
